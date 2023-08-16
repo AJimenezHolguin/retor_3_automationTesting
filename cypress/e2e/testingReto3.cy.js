@@ -1,6 +1,6 @@
 describe("inicio de seción", () => {
   beforeEach(() => {
-    cy.visit("http://127.0.0.1:5501/hotels.html");
+    cy.visit("https://ajimenezholguin.github.io/Hotels/");
   });
   it("debe verificar que al cargar la pagina se muestren todos los hoteles", () => {
     cy.wait(500);
